@@ -48,11 +48,12 @@ background: #222222;
 }
 .menuIcon a{
   margin-left: 15px;
-  color: #222222;
+  color: #767676;
   transition: 0.6s;
 }
 .menuIcon a:hover{
-scale: 1.3;
+scale: 1.2;
+color: #222222;
 }
 /* HEADER PART END */
 
@@ -85,19 +86,23 @@ scale: 1.3;
 }
 .bannerContent h1{
   font-size: 70px;
-  font-weight: 500;
+  font-weight: 400;
   color: #222222;
   line-height: 80px;
   padding: 25px 0;
   width: 810px;
 }
-.bannerContent h5{
+.bannerContent a{
   font-size: 14px;
   font-weight: 500;
-  color: #222222;
+  color: #767676;
   position: relative;
+  transition: 0.6s;
 }
-.bannerContent h5::before {
+.bannerContent a:hover{
+color: #222222;
+}
+.bannerContent a:hover::before {
     height: 2px;
     width: 95px;
     background: #222222;
@@ -117,10 +122,6 @@ scale: 1.3;
 }
 .colLeft{
   position: relative;
-  transition: 0.6s;
-}
-.colLeft:hover{
-  scale: 1.1;
 }
 .collectionText {
     position: absolute;
@@ -138,14 +139,17 @@ scale: 1.3;
   color: #222222;
   padding: 10px 0;
 }
-.collectionText h5{
+.collectionText a{
   font-size: 14px;
   font-weight: 500;
-  color: #222222;
+  color: #767676;
   position: relative;
   transition: 0.6s;
 }
-.collectionText h5::before {
+.collectionText a:hover{
+  color: #222222;
+}
+.collectionText a:hover::before {
     height: 2px;
     width: 50px;
     background: #222222;
@@ -226,31 +230,149 @@ font-size: 16px;
   color: #767676;
 }
 .pEnd{
-  padding: 50px 0;
+  padding-top: 50px;
 }
-.pEnd h5{
+.pEnd a{
   font-size: 14px;
   font-weight: 500;
-  color: #222222;
+  color: #767676;
   position: relative;
 }
-.pEnd h5::after {
+.pEnd a:hover{
+  color: #222222;
+}
+.pEnd a:hover::after {
     height: 2px;
     width: 85px;
     background: #222222;
     bottom: -7px;
-    left: 40px;
+    left: 0px;
     content: "";
     position: absolute;
 }
 
 /* Product PART END */
 
-/* HEADER PART START  */
-/* HEADER PART END */
+/* Spring collection PART START  */
+#sCollectionPart{
+  padding-bottom: 100px;
+}
+.springBanner{
+  background: url(../images/imageCoat.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 85px 0;
+}
+.scollectionText{
+  padding-top: 190px;
+}
+.scollectionText h6{
+  font-size: 14px;
+  font-weight: 500;
+  color: #C32929;
+  position: relative; 
+  margin-left: 55px;
+}
+.scollectionText h6::before {
+    height: 2px;
+    width: 40px;
+    background: #C32929;
+    top: 4px;
+    left: -49px;
+    content: "";
+    position: absolute;
+}
+.scollectionText h1{
+  font-size: 70px;
+  font-weight: 400;
+  color: #222222;
+  line-height: 80px;
+  padding: 25px 0;
+  width: 810px;
+}
+.scollectionText a{
+  font-size: 14px;
+  font-weight: 500;
+  color: #767676;
+  position: relative;
+  transition: 0.6s;
+}
+.scollectionText a:hover{
+color: #222222;
+}
+.scollectionText a:hover::before {
+    height: 2px;
+    width: 45px;
+    background: #222222;
+    bottom: -7px;
+    left: 0;
+    content: "";
+    position: absolute;
+}
+.countDown{
+  padding-top: 110px;
+}
+.countOne h5{
+  color: #222222;
+  font-size: 28px;
+  font-weight: 400;
+  padding-bottom: 15px;
+  border-right: 1px dotted #767676;
+}
+.countOne h6{
+  color: #767676;
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+.noBorder h5{
+  border: none !important;
+}
+/* Spring collection PART END */
 
-/* HEADER PART START  */
-/* HEADER PART END */
+/* Mask Banner PART START  */
+#maskBanner{
+  padding-bottom: 100px;
+}
+.maskImg{
+  position: relative;
+}
+.maskText{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+.maskText h6{  
+  font-size: 18px;
+  font-weight: 500;
+  color: #222222;
+}
+.maskText h5{  
+  font-size: 26px;
+  font-weight: 500;
+  color: #000000;
+  padding: 15px 0;
+}
+.maskText a{
+  font-size: 14px;
+  font-weight: 500;
+  color: #222222;
+  position: relative;
+  transition: 0.6s;
+}
+.maskText a::before {
+    height: 2px;
+    width: 45px;
+    background: #222222;
+    bottom: -7px;
+    left: 0;
+    content: "";
+    position: absolute;
+}
+
+
+/* Mask Banner PART END */
 
 /* HEADER PART START  */
 /* HEADER PART END */
